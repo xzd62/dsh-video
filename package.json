@@ -1,0 +1,33 @@
+{
+  "name": "dsh-boot-video",
+  "version": "0.2.0",
+  "description": "DSH 开机动画：打开/刷新 Web 界面时全屏播放一段视频，可用 ↑↓ 切换并记住选择，点击任意处或播放结束即进入 DSH",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "tools",
+    "config.json",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzd62/dsh-video.git"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "boot-animation",
+    "splash"
+  ],
+  "license": "MIT"
+}

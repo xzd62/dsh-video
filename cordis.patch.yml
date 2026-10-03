@@ -1,0 +1,8 @@
+# 这一层 patch 由 profile（$DSH_HOME/profiles/web）的 bundles 列表加载。
+# 只做一件事：把本插件的宿主半挂进 Cordis 树。
+#
+# 配置不写在这里，而是放在同目录的 config.json —— 改配置不需要懂 YAML，
+# 也不需要重新执行 dsh plugin 安装。
+- insert:
+    - id: boot-video
+      name: 'dsh-boot-video'

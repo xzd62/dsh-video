@@ -1,0 +1,19 @@
+# 运行时状态与本地文件，不入库
+
+# 记录「上次选了哪个视频」，由插件自己维护，每台机器不一样
+state.json
+
+# 依赖
+node_modules/
+pnpm-lock.yaml
+
+# 本机专属笔记（安装路径、图标工具等），只在本机有用
+DEV.local.md
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 日志
+*.log
